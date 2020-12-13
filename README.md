@@ -10,4 +10,7 @@ I have used Pytesseract on anaconda which is installed on my ubuntu 20.04 OS. Fo
 1. It completely reads the crisp and clear text written in black on white background (image 1) and even hindi language (image 2).
 2. If a text is written in white on black background (image 3) then pytesseract does not read it correctly if the same text is in black on white background (image                4) it reads correctly.
 3. Pytesseract can extract numbers and alphabets from number plate of vehicle (image 5,6). If the number plate is on the vehicle then it cannot extract string from that image (image 7).
-4. 
+4. If the image is blur (image 8) then it reads garbage.
+5. It extract all thin, thick and bold strings from the image (image 9,10).
+6. It can extract strings from photos of books pages and newspaper if image is clear (image 11,12,13,14). If the image is not clear (image 15) it will read garbage.
+7. In case of barcode it reads if image is super clear (image 16). If the photo of barcode is taken from camera (image 17,18) then it does not read.
