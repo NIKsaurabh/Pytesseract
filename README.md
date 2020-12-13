@@ -14,3 +14,6 @@ I have used Pytesseract on anaconda which is installed on my ubuntu 20.04 OS. Fo
 5. It extract all thin, thick and bold strings from the image (image 9,10).
 6. It can extract strings from photos of books pages and newspaper if image is clear (image 11,12,13,14). If the image is not clear (image 15) it will read garbage.
 7. In case of barcode it reads if image is super clear (image 16). If the photo of barcode is taken from camera (image 17,18) then it does not read.
+8. It cannot extract strings from  *word clouds* (image 19,20).
+9. Pytesseract can read easy captchas (image 21,22,23) but cannot read hard captchas (image 24,25).
+10. It cannot correctly read handwritings (image 26,27,28). If handwriting is clean then it can read with some garbage.
