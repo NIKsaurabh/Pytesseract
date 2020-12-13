@@ -17,3 +17,4 @@ I have used Pytesseract on anaconda which is installed on my ubuntu 20.04 OS. Fo
 8. It cannot extract strings from  *word clouds* (image 19,20).
 9. Pytesseract can read easy captchas (image 21,22,23) but cannot read hard captchas (image 24,25).
 10. It cannot correctly read handwritings (image 26,27,28). If handwriting is clean then it can read with some garbage.
+11. It can also read texts of simple font styles (image 29).
